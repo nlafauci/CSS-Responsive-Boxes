@@ -48,7 +48,7 @@ body {
 
 .f {
   display: inline-block;
-  width: 55vh;
+  width: 59vh;
   flex-grow: 5;
 }
 
@@ -71,3 +71,4 @@ body {
     max-width: 50%;
 }
 
+}
