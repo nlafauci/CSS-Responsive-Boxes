@@ -1,3 +1,13 @@
+* {
+  border: 1px solid black;
+}
+
 body {
   background: peachpuff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
