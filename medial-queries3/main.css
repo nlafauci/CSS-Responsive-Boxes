@@ -1,13 +1,41 @@
+body {
+  background: peachpuff;
+  margin: 0;
+  text-align: center;
+}
+
 * {
   border: 1px solid black;
 }
 
-body {
-  background: peachpuff;
-}
 
 .container {
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
-  text-align: center;
+  justify-content: space-between;
+  row-gap: 10px;
+  column-gap: 10px; 
+}
+
+
+@media (min-width: 600px) {
+
+  .container {
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  .a {
+    width: 100%;
+  }
+
+  .b, .c, .d, .e, .f, .g {
+    width: 10%;
+    display: inline-block;
+  }
+
+  .h {
+    max-width: 20%;
+}
 }

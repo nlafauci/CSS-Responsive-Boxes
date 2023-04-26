@@ -14,11 +14,21 @@ body {
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+  row-gap: 10px;
+  column-gap: 10px; 
 }
 
 .b {
   min-height: 60vh;
   flex-grow: 5;
+  
+}
+
+.c, .d, .e {
+  min-height: 30vh;
+  max-width: 20vh;
+  flex-grow: 5;
+  
 }
 
 
@@ -30,12 +40,19 @@ body {
       flex-direction: row;
       flex-wrap: wrap;
   }
+
   .a {
       width: 100%;
   }
+  
   .b {
       max-width: 80%;
   }
+
+  /*.c, .d, .e {
+    width: 10%;
+    height: 50%;
+  }*/
 
   .f {
     max-width: 20%;
