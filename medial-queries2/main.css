@@ -25,9 +25,10 @@ body {
 }
 
 .c, .d, .e {
-  min-height: 30vh;
+  height: 30vh;
   max-width: 20vh;
-  flex-grow: 5;
+  flex-grow: 1;
+  
   
 }
 
@@ -44,16 +45,65 @@ body {
   .a {
       width: 100%;
   }
-  
+
   .b {
-      max-width: 80%;
+      max-width: 100%;
   }
 
-  /*.c, .d, .e {
+  .c, .d, .e {
     width: 10%;
-    height: 50%;
-  }*/
+  }
 
   .f {
     max-width: 20%;
 }
+
+/*body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.a,.b,.c,.d,.e,.f {
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.a,.b {
+  width: 100%;
+}
+
+.c, .d, .e {
+  flex-direction: row;
+}
+
+@media (min-width: 600px) {
+  .container {
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  .a {
+      width: 100%;
+  }
+
+  .b {
+      max-width: 100%;
+  }
+
+  .c, .d, .e {
+    width: 10%;
+  }
+
+  .f {
+    max-width: 20%;
+}
+*/
